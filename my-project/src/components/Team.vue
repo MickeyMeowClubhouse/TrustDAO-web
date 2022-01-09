@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    
+  <div class="team">
+  
     <div id="title">{{title}}</div>
     <div id="content">{{ msg }}</div>
   </div>
@@ -8,11 +8,11 @@
 
 <script>
 export default {
-  name: "About",
+  name: "Team",
   data() {
     return {
-      title:"ABOUT ",
-      msg: "Trust DAO is an asset allocation Decentralized Autonomous Organization (DAO) for governing tokenized portfolio allocations. It’s the first 100% on-chain play-to-dao project, a pure crypto project which wraps with the concepts of DAO, NFT, Consensus, and Metaverse based on trust.",
+      title:"TEAM",
+      msg: "",
     };
   },
 };

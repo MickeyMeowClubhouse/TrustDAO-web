@@ -15,9 +15,9 @@
 
       <div id="content">
         <div>{{ msg }}</div>
-        <img id="icon-small" src="@/images/discord.png" alt="" />
+        <img id="icon-small" src="@/images/discord.png" alt="" v-on:click="discord"/>
         <img id="icon" src="@/images/medium-square-fill.png" alt="" />
-        <img id="icon" src="@/images/twitter-square-fill.png" alt="" />
+        <img id="icon" src="@/images/twitter-square-fill.png" alt="" v-on:click="twitter"/>
       </div>
     </div>
   </div>
@@ -31,6 +31,14 @@ export default {
       msg: "COMMING SOON",
     };
   },
+  methods: {
+  twitter(){
+    window.open('https://twitter.com/trustdaonft',"_blank")
+  },
+  discord(){
+    window.open('https://discord.gg/7znFUhEkzY',"_blank")
+  }
+  }
 };
 </script>
 
@@ -57,7 +65,7 @@ export default {
 
 .inner-cont {
   position:absolute;
-  width: 4510px;
+  width: 4610px;
   position: relative;
   animation: animatedBackground 15s linear infinite;
 

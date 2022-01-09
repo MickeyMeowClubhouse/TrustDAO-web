@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <div id="top-panel">
-    <div id ="web-title">  TRUST DAO</div>
+      <div id="web-title">TRUST DAO</div>
       <div id="guide">
         <router-link to="/" id="tab">Home</router-link>
         <router-link to="/About" id="tab">About</router-link>
+        <router-link to="/Gallery" id="tab">Gallery</router-link>
+        <router-link to="/DesignSketch" id="tab">DesignSketch</router-link>
+        <router-link to="/FAQ" id="tab">FAQ</router-link>
+        <router-link to="/Team" id="tab">Team</router-link>
       </div>
     </div>
-<div id="content">
-  <router-view/>
-</div>
+    <div id="content">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -17,34 +21,30 @@
 export default {
   name: "App",
   data: function () {
-    return { 
-   
-    };
+    return {};
   },
-   methods: {
-    
-   }
+  methods: {},
 };
 </script>
 
 <style>
 @font-face {
-   font-family: "Haettenschweiler";
-  src: url('/assets/fonts/Haettenschweiler-Regular.ttf');
+  font-family: "Haettenschweiler";
+  src: url("/assets/fonts/Haettenschweiler-Regular.ttf");
 }
 @font-face {
   font-family: "Regupix";
-  src: url('/assets/fonts/REGUPIX_.ttf');
+  src: url("/assets/fonts/REGUPIX_.ttf");
 }
 @font-face {
   font-family: "Bahnschrift";
-  src: url('/assets/fonts/BAHNSCHRIFT.ttf');
+  src: url("/assets/fonts/BAHNSCHRIFT.ttf");
 }
 #app {
   font-family: "Bahnschrift";
 
-position: absolute;
-background-color: black;
+  position: absolute;
+  background-color: black;
   color: #2c3e50;
   width: 100%;
   height: 100%;
@@ -54,8 +54,8 @@ background-color: black;
   padding: 30px;
   text-align: right;
 }
-#web-title{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#web-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: left;
   float: left;
   font-size: 30px;
@@ -68,10 +68,8 @@ background-color: black;
   display: inline;
 }
 #tab {
-  font-family: 'Regupix';
+  font-family: "Regupix";
   display: inline;
   padding: 30px;
 }
-
-
 </style>
