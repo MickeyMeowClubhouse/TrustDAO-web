@@ -3,12 +3,12 @@
     <div id="top-panel">
       <div id="web-title">TRUST DAO</div>
       <div id="guide">
-        <router-link to="/" id="tab">Home</router-link>
-        <router-link to="/About" id="tab">About</router-link>
-        <!-- <router-link to="/Gallery" id="tab">Gallery</router-link> -->
-        <!-- <router-link to="/DesignSketch" id="tab">DesignSketch</router-link> -->
-        <router-link to="/FAQ" id="tab">FAQ</router-link>
-        <!-- <router-link to="/Team" id="tab">Team</router-link> -->
+        <router-link to="/" class="tab">Home</router-link>
+        <router-link to="/About" class="tab">About</router-link>
+        <!-- <router-link to="/Gallery" class="tab">Gallery</router-link> -->
+        <!-- <router-link to="/DesignSketch" class="tab">DesignSketch</router-link> -->
+        <router-link to="/FAQ" class="tab">FAQ</router-link>
+        <!-- <router-link to="/Team" class="tab">Team</router-link> -->
       </div>
     </div>
     <div id="content">
@@ -67,7 +67,7 @@ export default {
   text-align: right;
   display: inline;
 }
-#tab {
+.tab {
   font-family: "Regupix";
   display: inline;
   padding: 30px;
