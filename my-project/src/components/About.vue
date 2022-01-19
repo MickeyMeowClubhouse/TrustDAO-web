@@ -2,9 +2,11 @@
   <div class="about">
     
     <div id="title">{{title}}</div>
-    <p class="content">{{ msg1 }}</p>
-    <p class="content">{{ msg2 }}</p>
-    <p class="content">{{ msg3 }}</p>
+    <div class="content">
+    <p>{{ msg1 }}</p>
+    <p>{{ msg2 }}</p>
+    <p>{{ msg3 }}</p>
+    </div>
   </div>
 </template>
 
@@ -29,7 +31,7 @@ export default {
   text-align: center;
   font-size: 28px;
   width: 100%;
-  padding-top: 20%;
+  padding-top: 5%;
   height: 120px;
   margin: auto;
   color: white;
@@ -43,7 +45,6 @@ export default {
   padding-left: 20%;
   padding-right: -20%;
   margin: auto;
-
   color: white;
 }
 </style>
