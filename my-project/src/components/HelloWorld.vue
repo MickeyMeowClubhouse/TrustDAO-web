@@ -16,7 +16,7 @@
       <div id="content">
         <div>{{ msg }}</div>
         <img id="icon-small" src="@/images/discord.png" alt="" v-on:click="discord"/>
-        <img id="icon" src="@/images/medium-square-fill.png" alt="" />
+        <!-- <img id="icon" src="@/images/medium-square-fill.png" alt="" /> -->
         <img id="icon" src="@/images/twitter-square-fill.png" alt="" v-on:click="twitter"/>
       </div>
     </div>
@@ -36,7 +36,7 @@ export default {
     window.open('https://twitter.com/trustdaonft',"_blank")
   },
   discord(){
-    window.open('https://discord.gg/7znFUhEkzY',"_blank")
+    window.open('https://discord.gg/Tk39wdaYFd',"_blank")
   }
   }
 };
