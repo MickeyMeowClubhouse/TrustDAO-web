@@ -5,10 +5,10 @@
       <div id="guide">
         <router-link to="/" id="tab">Home</router-link>
         <router-link to="/About" id="tab">About</router-link>
-        <router-link to="/Gallery" id="tab">Gallery</router-link>
-        <router-link to="/DesignSketch" id="tab">DesignSketch</router-link>
+        <!-- <router-link to="/Gallery" id="tab">Gallery</router-link> -->
+        <!-- <router-link to="/DesignSketch" id="tab">DesignSketch</router-link> -->
         <router-link to="/FAQ" id="tab">FAQ</router-link>
-        <router-link to="/Team" id="tab">Team</router-link>
+        <!-- <router-link to="/Team" id="tab">Team</router-link> -->
       </div>
     </div>
     <div id="content">
