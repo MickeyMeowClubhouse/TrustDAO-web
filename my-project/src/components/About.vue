@@ -2,7 +2,9 @@
   <div class="about">
     
     <div id="title">{{title}}</div>
-    <div id="content">{{ msg }}</div>
+    <p class="content">{{ msg1 }}</p>
+    <p class="content">{{ msg2 }}</p>
+    <p class="content">{{ msg3 }}</p>
   </div>
 </template>
 
@@ -12,7 +14,9 @@ export default {
   data() {
     return {
       title:"ABOUT ",
-      msg: "Trust DAO is an asset allocation Decentralized Autonomous Organization (DAO) for governing tokenized portfolio allocations. It’s the first 100% on-chain play-to-dao project, a pure crypto project which wraps with the concepts of DAO, NFT, Consensus, and Metaverse based on trust.",
+      msg1: "Trust DAO NFT is a Play-to-DAO project based around NFTs that reconstruct individual rights and social constructs of Web 3.0.",
+      msg2: "5000 Genesis Avatar will all be granted a 1:1 corresponding Free-to-claim NFT called “Trust”. By exchanging and transferring multiple “Trust” into a same wallet address, you are building trust with others and all interactions will be 100% on-chain recorded. When certain requirements are met, Trust DAO will be established, and a new era of Trust will begin.",
+      msg3: "It’s the first 100% on-chain Play-to-DAO project, a pure crypto project which wraps with the concepts of DAO, NFT, and Metaverse based on trust.",
     };
   },
 };
@@ -30,7 +34,7 @@ export default {
   margin: auto;
   color: white;
 }
-#content {
+.content {
   display: inline-block;
   text-align: center;
   font-size: 28px;
