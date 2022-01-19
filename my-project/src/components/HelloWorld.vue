@@ -28,7 +28,7 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      msg: "COMMING SOON",
+      msg: "COMING SOON",
     };
   },
   methods: {

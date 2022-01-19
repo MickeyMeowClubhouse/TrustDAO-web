@@ -30,7 +30,7 @@ export default {
       },
          {
         Q:"4. What is mint?",
-        A:"For the Trust DAO NFT project, mint means connecting your wallet to our address and paying certain minting fee for an Genesis avatar.", 
+        A:"For the Trust DAO NFT project, mint means connecting your wallet to our address and paying certain minting fee for a Genesis avatar.", 
       },
          {
         Q:"5. How do I get started with a Blockchain Project?",
@@ -50,7 +50,7 @@ export default {
       },
       {
         Q:"9. What is the transferring fee?",
-        A:"Transferring Hats via opensea.io will incur fee, you need to pay the fee to complete the action.", 
+        A:"Transferring \"Trust\" via opensea.io will incur transferring fee, you need to pay the fee to complete the action.", 
       },
       {
         Q:"10. What is Trustsury?",
